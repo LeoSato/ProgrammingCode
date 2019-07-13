@@ -4,7 +4,7 @@ All of this code has been written from scratch as a personal project to get a be
 
 To be able to use the LQR function, it is necessary to install the control package as well as the slycot module. 
 
-The goal of this code is to implement the inverted pendulum. This code will utilize the dynamics of the pendulum and invert the pendulum using a control law derived from a Lyapunov function, which changes the pendulum's energy to match the energy of the desired angles/angular velocities, and a control law derived from a LQR to balance the pendulum at the top.
+The goal of this code is to implement the inverted pendulum. This code will utilize the dynamics of the pendulum and invert the pendulum using a control law derived from a Lyapunov function, which changes the pendulum's energy to match the energy of the desired angles/angular velocities, and a control law derived from a LQR to balance the pendulum at the top. Also, a Kalman Filter option is added where there is measurement noise on both the angle and angular velocity and an Extended Kalman Filter is used to estimate the actual states.
 
 The single pendulum system used is a simple pendulum with damping. The vertical axis going down from the origin represents theta=0 with counter-clockwise direction being positive.
 
