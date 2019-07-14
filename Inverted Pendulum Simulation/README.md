@@ -8,7 +8,7 @@ The double pendulum system used is a combination of two simple pendulum with no 
 
 To be able to use the LQR function, it is necessary to install the control package as well as the slycot module. 
 
-The goal of this code is to implement the inverted pendulum. This code will utilize the dynamics of the pendulum and invert the pendulum using a control law derived from a Lyapunov function, which changes the pendulum's energy to match the energy of the desired angles/angular velocities, and a control law derived from a LQR to balance the pendulum at the top. Also, a Kalman Filter option is added where there is measurement noise on both the angle and angular velocity and an Extended Kalman Filter is used to estimate the actual states.
+The goal of this code is to implement the inverted pendulum. This code will utilize the dynamics of the pendulum and invert the pendulum using a control law derived from a Lyapunov function, which changes the pendulum's energy to match the energy of the desired angles/angular velocities, and a control law derived from a LQR to balance the pendulum at the top. Also, a Kalman Filter option is added for the single pendulum where there is measurement noise on both the angle and angular velocity and an Extended Kalman Filter is used to estimate the actual states.
 
 I have used the section 5.1.1 Discrete-time measurements from the Extended Kalman Filter wiki to help implement in the code. 
 Link: https://en.wikipedia.org/wiki/Extended_Kalman_filter
