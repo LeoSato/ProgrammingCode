@@ -1,6 +1,6 @@
 # Inverted Pendulum Control Simulation
 
-All of this code has been written from scratch as a personal project to get a better understanding of robotics concepts. I have used lecture notes and videos from MIT's Underactuated Robotics course as a reference to write part of this code, mainly the calculation for the control input. Link to the course webpage: http://underactuated.csail.mit.edu/Spring2019/index.html
+All of this code has been written from scratch as a personal project to get a better understanding of robotics concepts. I have used lecture notes and videos from MIT's Underactuated Robotics course as a reference to write part of this code. Link to the course webpage: http://underactuated.csail.mit.edu/Spring2019/index.html
 
 The single pendulum system used is a simple pendulum with damping. The vertical axis going down from the origin represents theta=0 with counter-clockwise direction being positive.
 
